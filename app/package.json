@@ -1,0 +1,17 @@
+{
+  "name": "selfhint",
+  "version": "0.0.1",
+  "description": "Selfhint is a cheat-sheet website that's  **heavily inspired** by [devhints.io] and such is working as a clutter-free selfhosted alternative for homeprojects.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs"
+  },
+  "keywords": [
+    "selfhint"
+  ],
+  "author": "Orsós Ádám <adam@orsos.dev>",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "1.8.2"
+  }
+}

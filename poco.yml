@@ -1,0 +1,12 @@
+version: '3.0'
+maintainer: "Orsós Ádám <adam@orsos.dev>"
+
+before_script:
+    - cd docker/scripts && chmod +x *
+environment:
+    include: docker/conf/conf.env
+plan:
+    dev:
+        description: "This is for local development"
+        docker-compose-file:
+            - docker/dc-vuepress.yml
